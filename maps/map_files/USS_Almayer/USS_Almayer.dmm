@@ -5822,6 +5822,22 @@
 /obj/structure/platform_decoration/metal/almayer_smooth/north,
 /turf/open/floor/almayer/no_build/plate,
 /area/almayer/stair_clone/lower/port_fore)
+"aoA" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/sign/safety/hazard{
+	pixel_y = 25
+	},
+/obj/structure/sign/safety/high_voltage{
+	pixel_y = 25;
+	pixel_x = 14
+	},
+/turf/open/floor/almayer/silver/north,
+/area/almayer/command/cichallway)
 "aoB" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 8
@@ -7188,6 +7204,13 @@
 "arO" = (
 /turf/open/floor/wood/ship,
 /area/almayer/living/offices/flight)
+"arP" = (
+/obj/structure/machinery/door/airlock/almayer/engineering/reinforced{
+	name = "\improper Command Power Substation";
+	dir = 2
+	},
+/turf/open/floor/almayer/test_floor4,
+/area/almayer/command/cic)
 "arQ" = (
 /obj/structure/surface/table/gamblingtable,
 /obj/item/spacecash/c10,
@@ -12945,10 +12968,6 @@
 /turf/open/floor/plating/plating_catwalk/no_build,
 /area/almayer/middeck/medical)
 "aHK" = (
-/obj/structure/sign/safety/terminal{
-	pixel_x = 8;
-	pixel_y = -32
-	},
 /obj/structure/terminal{
 	dir = 4
 	},
@@ -50362,6 +50381,10 @@
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 10
 	},
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_22";
+	pixel_y = 8
+	},
 /turf/open/floor/almayer/silver/northeast,
 /area/almayer/command/cichallway)
 "cqw" = (
@@ -78519,12 +78542,6 @@
 	},
 /turf/open/floor/almayer/plate,
 /area/almayer/maint/upper/u_f_p)
-"osz" = (
-/obj/structure/machinery/door/airlock/almayer/engineering/reinforced{
-	name = "\improper Command Power Substation"
-	},
-/turf/open/floor/almayer/test_floor4,
-/area/almayer/command/cic)
 "osA" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SW-out"
@@ -79598,14 +79615,6 @@
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_22";
 	pixel_y = 8
-	},
-/obj/structure/sign/safety/high_voltage{
-	pixel_y = -8;
-	pixel_x = 35
-	},
-/obj/structure/sign/safety/hazard{
-	pixel_x = 35;
-	pixel_y = 7
 	},
 /turf/open/floor/almayer/silver/southeast,
 /area/almayer/command/cichallway)
@@ -203980,7 +203989,7 @@ sEM
 cqP
 cqP
 cqP
-osz
+wVW
 wVW
 wVW
 aKn
@@ -204085,7 +204094,7 @@ aGp
 cqP
 aDv
 aHK
-wVW
+arP
 aKn
 aKy
 mKq
@@ -204189,7 +204198,7 @@ cqP
 aIf
 aEA
 wVW
-aKn
+aoA
 ewS
 aom
 aVG
