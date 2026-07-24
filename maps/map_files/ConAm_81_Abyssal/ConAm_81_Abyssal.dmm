@@ -399,7 +399,7 @@
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 6
 	},
-/turf/open/floor/darkredcorners2/north,
+/turf/open/floor/darkred2/west,
 /area/abyssal/interior/security)
 "abk" = (
 /turf/closed/wall/abyssal/blue/unmeltable,
@@ -978,13 +978,7 @@
 /turf/closed/wall/abyssal/standard/reinforced,
 /area/abyssal/interior/maintenance/west)
 "acV" = (
-/obj/structure/machinery/door/airlock/prison_hatch/autoname{
-	dir = 1
-	},
 /obj/effect/decal/hybrisa/lattice,
-/obj/structure/machinery/door/firedoor/border_only/almayer{
-	dir = 2
-	},
 /obj/effect/hybrisa/misc/fake/wire/red{
 	pixel_x = 4;
 	layer = 2.5
@@ -1494,20 +1488,6 @@
 	},
 /turf/open/floor/station/metal/floor/alt1/east,
 /area/abyssal/interior/corridor_west)
-"aen" = (
-/obj/effect/decal/hybrisa/dirt_2,
-/obj/effect/decal/hybrisa/lattice,
-/obj/effect/hybrisa/misc/fake/wire/red{
-	dir = 4;
-	pixel_y = -4
-	},
-/obj/effect/hybrisa/misc/fake/wire/yellow{
-	dir = 4;
-	pixel_y = -8
-	},
-/obj/structure/machinery/power/apc/power/north,
-/turf/open/floor/engine,
-/area/abyssal/interior/maintenance/west)
 "aeo" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SE-out";
@@ -19834,13 +19814,8 @@
 /area/abyssal/interior/atmo)
 "aWo" = (
 /obj/effect/decal/hybrisa/dirt_2,
-/obj/structure/disposalpipe/segment{
-	dir = 4;
-	icon_state = "pipe-c"
-	},
-/obj/structure/sign/poster/marshalls{
-	pixel_y = 32
-	},
+/obj/structure/machinery/disposal,
+/obj/structure/disposalpipe/trunk,
 /turf/open/floor/plating/plating_catwalk/shiva,
 /area/abyssal/interior/security)
 "aWp" = (
@@ -19856,12 +19831,7 @@
 /area/abyssal/interior/arrivals)
 "aWq" = (
 /obj/effect/decal/hybrisa/dirt_2,
-/obj/structure/disposalpipe/segment{
-	dir = 8;
-	icon_state = "pipe-c";
-	level = 2
-	},
-/turf/open/floor/darkred2/west,
+/turf/open/floor/darkred2/northwest,
 /area/abyssal/interior/security)
 "aWr" = (
 /obj/effect/decal/hybrisa/dirt_2,
@@ -19923,12 +19893,6 @@
 	},
 /turf/open/floor/darkish,
 /area/abyssal/interior/corridor_central)
-"aWy" = (
-/obj/effect/decal/hybrisa/dirt_2,
-/obj/structure/machinery/disposal,
-/obj/structure/disposalpipe/trunk,
-/turf/open/floor/darkred2/northwest,
-/area/abyssal/interior/security)
 "aWz" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
@@ -20242,7 +20206,6 @@
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 9
 	},
-/obj/structure/largecrate/random/barrel/red,
 /turf/open/floor/darkish,
 /area/abyssal/interior/corridor_central)
 "aXe" = (
@@ -26278,6 +26241,30 @@
 	},
 /turf/open/floor/engine,
 /area/abyssal/interior/bunker)
+"bkI" = (
+/obj/effect/decal/hybrisa/lattice,
+/turf/open/floor/engine,
+/area/abyssal/interior/maintenance/west)
+"bkJ" = (
+/turf/open/floor/engine,
+/area/abyssal/interior/maintenance/west)
+"bkK" = (
+/obj/structure/machinery/power/apc/power/north,
+/obj/effect/decal/hybrisa/dirt_2,
+/turf/open/floor/engine,
+/area/abyssal/interior/maintenance/west)
+"bkL" = (
+/obj/effect/decal/hybrisa/dirt_2,
+/turf/open/floor/engine,
+/area/abyssal/interior/maintenance/west)
+"bkM" = (
+/obj/structure/pipes/standard/simple/hidden/cyan,
+/turf/open/floor/darkredcorners2/north,
+/area/abyssal/interior/security)
+"bkN" = (
+/obj/structure/largecrate/random/barrel/red,
+/turf/open/floor/darkish,
+/area/abyssal/interior/corridor_central)
 "bqz" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
@@ -34393,7 +34380,7 @@ bgd
 bfO
 avF
 avv
-aeu
+bkJ
 aeu
 aqS
 aej
@@ -34698,10 +34685,10 @@ bfQ
 avy
 avx
 avf
-aeu
-aeu
-aeu
-aeu
+acU
+bkK
+bkI
+bkJ
 asv
 aaL
 abD
@@ -34850,11 +34837,11 @@ bfR
 avy
 avy
 avg
-aeu
-aeu
-aeu
-aeu
-aen
+acU
+bkL
+bkI
+bkJ
+asu
 aaL
 aVt
 arq
@@ -35155,7 +35142,7 @@ bfF
 afT
 avj
 auG
-aew
+atg
 aew
 arj
 asy
@@ -37294,8 +37281,8 @@ arg
 aqJ
 aqm
 apV
-acU
-acU
+bkJ
+bkI
 apn
 aaL
 art
@@ -37599,7 +37586,7 @@ aqM
 acU
 adx
 acU
-acU
+bkJ
 app
 apc
 aoP
@@ -37750,7 +37737,7 @@ acU
 acU
 aaN
 apX
-aaT
+aaN
 aaN
 aaN
 aaN
@@ -42425,7 +42412,7 @@ afY
 aXp
 aiL
 aXd
-ahB
+bkN
 ahB
 aWo
 bjh
@@ -42578,7 +42565,7 @@ aXr
 aiK
 ahB
 ahB
-aWy
+ajg
 aWq
 azj
 azj
@@ -42731,7 +42718,7 @@ aXf
 ahB
 aWO
 abj
-aTW
+bkM
 aVY
 aVP
 aVM
