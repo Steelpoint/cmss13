@@ -125,7 +125,7 @@
 	name = "train blocker"
 	icon_state = "o_red"
 
-	var/time_to_dispel = 10 MINUTES
+	var/time_to_dispel = 5 MINUTES
 
 /obj/effect/landmark/lv624/train_door_alt/Initialize(mapload, ...)
 	. = ..()
