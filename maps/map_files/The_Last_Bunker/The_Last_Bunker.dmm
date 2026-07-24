@@ -1417,14 +1417,14 @@
 /obj/structure/stairs/multiz/down{
 	layer = 1
 	},
-/obj/structure/stairs/perspective{
-	dir = 1;
-	icon_state = "p_stair_full";
-	pixel_y = 21
-	},
 /obj/effect/decal/hybrisa/tiretrack{
 	dir = 1;
 	pixel_x = -7
+	},
+/obj/structure/stairs/perspective{
+	dir = 1;
+	icon_state = "p_stair_full";
+	pixel_y = 14
 	},
 /turf/open/floor/prison,
 /area/last_bunker/indoors/entry_zone)
@@ -1932,6 +1932,7 @@
 	pixel_y = 32
 	},
 /obj/item/weapon/twohanded/folded_metal_chair,
+/obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/corsat/squares,
 /area/last_bunker/indoors/entry_zone/power)
 "afr" = (
@@ -2226,6 +2227,7 @@
 /area/last_bunker/landing_zone_2)
 "agm" = (
 /obj/effect/decal/hybrisa/dirt,
+/obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/shiva/yellow/southeast,
 /area/last_bunker/indoors/entry_zone/power)
 "agn" = (
@@ -2386,6 +2388,7 @@
 /area/last_bunker/indoors/entry_zone/power)
 "agP" = (
 /obj/effect/decal/hybrisa/dirt,
+/obj/effect/landmark/objective_landmark/science,
 /turf/open/floor/shiva/yellow/northeast,
 /area/last_bunker/indoors/entry_zone/power)
 "agQ" = (
@@ -2443,6 +2446,7 @@
 	dir = 1
 	},
 /obj/structure/largecrate/empty/case/double,
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/prison/cell_stripe/east,
 /area/last_bunker/indoors/entry_zone/power)
 "agX" = (
@@ -3809,12 +3813,12 @@
 /obj/structure/stairs/multiz/down{
 	layer = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/stairs/perspective{
 	dir = 1;
 	icon_state = "p_stair_full";
-	pixel_y = 21
+	pixel_y = 14
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison,
 /area/last_bunker/indoors/entry_zone)
 "akO" = (
@@ -4257,14 +4261,14 @@
 /obj/structure/stairs/multiz/down{
 	layer = 1
 	},
-/obj/structure/stairs/perspective{
-	dir = 1;
-	icon_state = "p_stair_full";
-	pixel_y = 21
-	},
 /obj/effect/decal/cleanable/generic{
 	color = "#5d524b";
 	alpha = 155
+	},
+/obj/structure/stairs/perspective{
+	dir = 1;
+	icon_state = "p_stair_full";
+	pixel_y = 14
 	},
 /turf/open/floor/prison,
 /area/last_bunker/indoors/entry_zone)
@@ -5272,6 +5276,7 @@
 "aoK" = (
 /obj/effect/landmark/objective_landmark/close,
 /obj/structure/surface/rack,
+/obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/prison/darkyellowfull2,
 /area/last_bunker/indoors/comms/tcomms_1)
 "aoL" = (
@@ -6804,7 +6809,7 @@
 /obj/structure/stairs/perspective{
 	dir = 1;
 	icon_state = "p_stair_full";
-	pixel_y = 21
+	pixel_y = 14
 	},
 /turf/open/floor/prison/blue/west,
 /area/last_bunker/indoors/entry_zone)
@@ -7284,6 +7289,7 @@
 /obj/item/stack/sheet/metal/med_small_stack,
 /obj/item/stack/sheet/metal/med_small_stack,
 /obj/item/stack/sheet/metal/small_stack,
+/obj/effect/landmark/objective_landmark/science,
 /turf/open/floor/prison/blue/west,
 /area/last_bunker/outdoors/surface_exterior/center)
 "div" = (
@@ -7321,7 +7327,7 @@
 /obj/structure/stairs/perspective{
 	dir = 1;
 	icon_state = "p_stair_full";
-	pixel_y = 21
+	pixel_y = 14
 	},
 /turf/open/floor/prison/green/west,
 /area/last_bunker/indoors/entry_zone)
@@ -7973,6 +7979,7 @@
 /obj/structure/surface/rack,
 /obj/item/stack/sheet/mineral/phoron/small_stack,
 /obj/item/stack/sheet/mineral/phoron/small_stack,
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/prison/green/northwest,
 /area/last_bunker/landing_zone_1)
 "egM" = (
@@ -8884,6 +8891,7 @@
 	layer = 2.9;
 	pixel_x = 1
 	},
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/prison/darkred2/northeast,
 /area/last_bunker/indoors/entry_zone)
 "fyp" = (
@@ -9886,12 +9894,12 @@
 /obj/structure/stairs/multiz/down{
 	layer = 1
 	},
+/obj/effect/stairs/down,
 /obj/structure/stairs/perspective{
 	dir = 1;
 	icon_state = "p_stair_full";
-	pixel_y = 21
+	pixel_y = 14
 	},
-/obj/effect/stairs/down,
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/last_bunker/indoors/entry_zone)
 "gMw" = (
@@ -11645,7 +11653,7 @@
 /obj/structure/stairs/perspective{
 	dir = 1;
 	icon_state = "p_stair_full";
-	pixel_y = 21
+	pixel_y = 14
 	},
 /turf/open/floor/prison/blue/east,
 /area/last_bunker/indoors/entry_zone)
@@ -12112,12 +12120,12 @@
 /obj/structure/stairs/multiz/down{
 	layer = 1
 	},
+/obj/effect/stairs/down,
 /obj/structure/stairs/perspective{
 	dir = 1;
 	icon_state = "p_stair_full";
-	pixel_y = 21
+	pixel_y = 14
 	},
-/obj/effect/stairs/down,
 /turf/open/floor/prison,
 /area/last_bunker/indoors/entry_zone)
 "jHc" = (
@@ -13410,6 +13418,7 @@
 	pixel_x = 1;
 	pixel_y = 12
 	},
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/antre/metal/black/southwest,
 /area/last_bunker/indoors/entry_zone)
 "llG" = (
@@ -18070,7 +18079,7 @@
 /obj/structure/stairs/perspective{
 	dir = 1;
 	icon_state = "p_stair_full";
-	pixel_y = 21
+	pixel_y = 14
 	},
 /turf/open/floor/prison,
 /area/last_bunker/indoors/entry_zone)
@@ -20502,7 +20511,7 @@
 /obj/structure/stairs/perspective{
 	dir = 1;
 	icon_state = "p_stair_full";
-	pixel_y = 21
+	pixel_y = 14
 	},
 /turf/open/floor/prison/green/east,
 /area/last_bunker/indoors/entry_zone)
@@ -21356,6 +21365,7 @@
 /area/last_bunker/indoors/sustainment_zone)
 "vQq" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/shiva/red/northwest,
 /area/last_bunker/indoors/entry_zone/power)
 "vQt" = (
@@ -22599,6 +22609,7 @@
 /obj/structure/machinery/light/small{
 	dir = 4
 	},
+/obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/prison/green/northeast,
 /area/last_bunker/landing_zone_1)
 "xwA" = (
