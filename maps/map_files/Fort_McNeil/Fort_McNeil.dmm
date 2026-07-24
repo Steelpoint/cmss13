@@ -639,8 +639,7 @@
 /turf/open/floor/prison/darkyellowfull2,
 /area/fort_mcneil/indoors/engi)
 "abR" = (
-/obj/effect/landmark/lv624/fog_blocker/short,
-/turf/closed/wall/shiva/prefabricated/reinforced,
+/turf/closed/wall/shiva/prefabricated/reinforced/hull,
 /area/fort_mcneil/landing_zone_1/ceiling)
 "abS" = (
 /obj/effect/decal/warning_stripes{
@@ -5686,10 +5685,6 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
 	pixel_x = 1;
-	pixel_y = 1
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
 	pixel_y = 1
 	},
 /obj/structure/fence/slim/dark,
@@ -11336,6 +11331,7 @@
 	pixel_x = 1;
 	pixel_y = 1
 	},
+/obj/effect/landmark/lv624/fog_blocker/short,
 /turf/open/auto_turf/sand_white/layer0,
 /area/fort_mcneil/outdoors/scrublands/south)
 "rkG" = (
@@ -27602,9 +27598,9 @@ aak
 aak
 aaj
 aaj
-aaj
-isd
-isd
+ofL
+ofL
+ofL
 isd
 aah
 isd
@@ -27612,9 +27608,9 @@ isd
 isd
 isd
 isd
-isd
-isd
-isd
+ofL
+ofL
+ofL
 isd
 isd
 emH
@@ -27705,7 +27701,7 @@ aaj
 isd
 isd
 isd
-isd
+ofL
 isd
 isd
 isd
@@ -27714,8 +27710,8 @@ aam
 aam
 jVa
 aah
-isd
-isd
+ofL
+ofL
 aad
 aad
 emH
@@ -28793,8 +28789,8 @@ isd
 aah
 aah
 isd
-iKJ
-kQQ
+isd
+isd
 kwx
 aan
 aac
@@ -28894,8 +28890,8 @@ aah
 aah
 aah
 iKJ
-mNW
-abR
+kQQ
+kQQ
 dZV
 fYN
 gKW
