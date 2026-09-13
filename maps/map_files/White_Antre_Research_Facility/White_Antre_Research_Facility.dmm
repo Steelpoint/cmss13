@@ -1091,6 +1091,13 @@
 /obj/effect/landmark/monkey_spawn,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/white_antre/indoors/main_level/east_containment_hive)
+"acU" = (
+/obj/structure/barricade/handrail/no_vault{
+	dir = 8
+	},
+/obj/structure/barricade/handrail/no_vault,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/white_antre/landing_zone)
 "acV" = (
 /obj/effect/landmark/objective_landmark/close,
 /obj/structure/filingcabinet{
@@ -1730,6 +1737,16 @@
 	},
 /turf/open/floor/almayer/silver/north,
 /area/white_antre/indoors/main_level/east_containment_hive)
+"aer" = (
+/obj/structure/stairs/perspective{
+	dir = 10;
+	icon_state = "p_stair_full"
+	},
+/obj/structure/barricade/handrail/no_vault{
+	dir = 8
+	},
+/turf/open/auto_turf/sand_white/layer0,
+/area/white_antre/landing_zone)
 "aes" = (
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "thermite";
@@ -2426,6 +2443,13 @@
 	},
 /turf/open/floor/almayer/silverfull,
 /area/white_antre/indoors/main_level/east_containment_hive)
+"afY" = (
+/obj/structure/machinery/door_control/brbutton{
+	pixel_y = 30;
+	id = "LZ1_Lockdown_north"
+	},
+/turf/open/floor/prison/darkbrown2/north,
+/area/white_antre/landing_zone/roof)
 "afZ" = (
 /obj/structure/sink{
 	dir = 8;
@@ -13378,6 +13402,9 @@
 /area/white_antre/outdoors/south_field)
 "aEQ" = (
 /obj/structure/largecrate/empty/case/double,
+/obj/structure/barricade/handrail/no_vault{
+	dir = 8
+	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/white_antre/landing_zone)
 "aER" = (
@@ -13477,11 +13504,7 @@
 "aFe" = (
 /obj/structure/platform/metal/almayer,
 /obj/structure/platform/metal/almayer/west,
-/turf/open/auto_turf/shale/layer1/weedable,
-/area/white_antre/landing_zone)
-"aFf" = (
-/obj/structure/platform/metal/almayer,
-/turf/open/auto_turf/shale/layer1/weedable,
+/turf/open/auto_turf/sand_white/layer0,
 /area/white_antre/landing_zone)
 "aFg" = (
 /obj/item/paper/crumpled{
@@ -14038,10 +14061,6 @@
 /obj/effect/alien/weeds/node/kseries,
 /turf/open/floor/almayer/silver,
 /area/white_antre/indoors/main_level/north_containment_hive)
-"aGq" = (
-/obj/structure/platform/metal/almayer,
-/turf/open/auto_turf/shale/layer2/weedable,
-/area/white_antre/landing_zone)
 "aGr" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_21"
@@ -15074,7 +15093,7 @@
 "aIu" = (
 /obj/structure/platform/metal/almayer,
 /obj/structure/platform/metal/almayer/east,
-/turf/open/auto_turf/shale/layer1/weedable,
+/turf/open/auto_turf/sand_white/layer0,
 /area/white_antre/landing_zone)
 "aIv" = (
 /obj/structure/flora/bush/snow{
@@ -16646,7 +16665,7 @@
 "aNA" = (
 /obj/structure/machinery/door/poddoor/almayer/closed{
 	dir = 2;
-	id = "LZ1_Lockdown_Lo";
+	id = "LZ1_Lockdown_north";
 	name = "Emergency Lockdown"
 	},
 /turf/open/floor/corsat/marked,
@@ -40521,13 +40540,6 @@
 	},
 /turf/open/floor/prison/green,
 /area/white_antre/indoors/underground_level/east_maint)
-"bVK" = (
-/obj/structure/stairs/perspective{
-	dir = 10;
-	icon_state = "p_stair_full"
-	},
-/turf/open/auto_turf/shale/layer1/weedable,
-/area/white_antre/landing_zone)
 "bVL" = (
 /obj/effect/decal/hybrisa/bloodtrail/clawtrail/xeno{
 	dir = 8;
@@ -41267,12 +41279,6 @@
 /obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate,
 /area/white_antre/landing_zone)
-"bXM" = (
-/obj/structure/stairs/perspective{
-	icon_state = "p_stair_full"
-	},
-/turf/open/auto_turf/shale/layer1/weedable,
-/area/white_antre/landing_zone)
 "bXN" = (
 /obj/structure/surface/table/reinforced/prison{
 	color = "#6b675e"
@@ -41673,20 +41679,16 @@
 "bZb" = (
 /obj/structure/platform/metal/almayer/north,
 /obj/structure/platform/metal/almayer/west,
-/turf/open/auto_turf/shale/layer1/weedable,
+/turf/open/auto_turf/sand_white/layer0,
 /area/white_antre/landing_zone)
 "bZc" = (
 /obj/structure/platform/metal/almayer/north,
-/turf/open/auto_turf/shale/layer1/weedable,
-/area/white_antre/landing_zone)
-"bZd" = (
-/obj/structure/platform/metal/almayer/north,
-/turf/open/auto_turf/shale/layer2/weedable,
+/turf/open/auto_turf/sand_white/layer0,
 /area/white_antre/landing_zone)
 "bZe" = (
 /obj/structure/platform/metal/almayer/north,
 /obj/structure/platform/metal/almayer/east,
-/turf/open/auto_turf/shale/layer1/weedable,
+/turf/open/auto_turf/sand_white/layer0,
 /area/white_antre/landing_zone)
 "bZf" = (
 /obj/effect/decal/warning_stripes{
@@ -42592,6 +42594,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/reagent_dispensers/tank/fuel,
 /turf/open/floor/prison/darkbrown3,
 /area/white_antre/indoors/exterior/prefab_2)
 "cbB" = (
@@ -44047,15 +44050,6 @@
 /area/white_antre/landing_zone)
 "cfp" = (
 /turf/closed/wall/strata_outpost/reinforced,
-/area/white_antre/outdoors/north_field)
-"cfq" = (
-/obj/structure/machinery/door_control/brbutton{
-	pixel_x = -28;
-	id = "lz_entrance";
-	needs_power = 0;
-	explo_proof = 0
-	},
-/turf/open/auto_turf/shale/layer1/weedable,
 /area/white_antre/outdoors/north_field)
 "cfr" = (
 /obj/item/tool/warning_cone{
@@ -48165,6 +48159,7 @@
 /obj/item/explosive/plastic/breaching_charge{
 	unacidable = 1
 	},
+/obj/item/explosive/plastic,
 /turf/open/auto_turf/sand_white/layer0,
 /area/white_antre/indoors/main_level/east_containment)
 "cnl" = (
@@ -50905,12 +50900,6 @@
 /turf/open/floor/prison/darkbrown2/east,
 /area/white_antre/landing_zone/roof)
 "cvX" = (
-/obj/structure/machinery/door_control/brbutton/alt{
-	id = "LZ1_Lockdown_Lo";
-	name = "remote door-control";
-	pixel_y = -2;
-	pixel_x = 6
-	},
 /obj/structure/surface/table/almayer,
 /turf/open/floor/prison/darkbrownfull2,
 /area/white_antre/landing_zone/roof)
@@ -50973,6 +50962,7 @@
 /turf/open/floor/prison/darkyellowcorners2/north,
 /area/white_antre/landing_zone/roof)
 "cwl" = (
+/obj/structure/largecrate/random/case/double,
 /turf/open/floor/prison/darkyellow2/northeast,
 /area/white_antre/landing_zone/roof)
 "cwm" = (
@@ -50995,18 +50985,17 @@
 /turf/open/floor/prison/darkyellow2/northwest,
 /area/white_antre/landing_zone/roof)
 "cwp" = (
-/obj/structure/largecrate/random/case/double,
 /obj/structure/machinery/light/double{
 	dir = 1
 	},
+/obj/structure/cargo_container/hybrisa/containersextended/redleft,
 /turf/open/floor/prison/darkyellow2/north,
 /area/white_antre/landing_zone/roof)
 "cwq" = (
-/obj/structure/cargo_container/hybrisa/containersextended/redleft,
+/obj/structure/cargo_container/hybrisa/containersextended/redright,
 /turf/open/floor/prison/darkyellow2/northeast,
 /area/white_antre/landing_zone/roof)
 "cwr" = (
-/obj/structure/cargo_container/hybrisa/containersextended/redright,
 /turf/closed/wall/strata_outpost/reinforced/hull,
 /area/white_antre/landing_zone/roof)
 "cws" = (
@@ -100367,8 +100356,8 @@ aZa
 ceY
 bWW
 aYD
-bSC
-bXo
+aer
+acU
 byX
 bzf
 jkE
@@ -100537,7 +100526,7 @@ aYL
 aYD
 bYx
 bXo
-bXo
+bYX
 aEQ
 iFy
 iFy
@@ -100996,7 +100985,7 @@ cwv
 ctR
 ctR
 ctR
-aNN
+afY
 aKf
 cwe
 ben
@@ -101511,8 +101500,8 @@ bYY
 bXo
 cjd
 bZy
-bZd
-aKB
+bZc
+aKC
 aKC
 odB
 oSf
@@ -101544,7 +101533,7 @@ oSf
 nQp
 aKC
 aKB
-aFf
+aNL
 aEZ
 bXo
 atH
@@ -101712,7 +101701,7 @@ aKB
 aKB
 aKB
 aKB
-aFf
+aNL
 aEZ
 bXo
 aKz
@@ -101880,7 +101869,7 @@ aKB
 aKB
 aKB
 aKB
-aGq
+aNL
 aEZ
 bXo
 iFy
@@ -102048,7 +102037,7 @@ aLc
 aJq
 aJq
 aKC
-aFf
+aNL
 aEZ
 bXo
 iFy
@@ -102216,7 +102205,7 @@ aYV
 aJq
 aJq
 aKC
-aFf
+aNL
 aEZ
 bXo
 bXo
@@ -102689,7 +102678,7 @@ bXo
 bXo
 bXo
 bYV
-bVK
+bSC
 aKB
 aKC
 aKC
@@ -102857,7 +102846,7 @@ bXo
 bXo
 bXo
 bYW
-bXM
+bYx
 hNM
 hNM
 aKD
@@ -104044,7 +104033,7 @@ aMJ
 aMJ
 aMJ
 aMJ
-cfq
+aMJ
 aLH
 aLm
 bAi
